@@ -4,7 +4,7 @@ class Vehiculo(ABC):
     precio_base = 500.0
 
     def __init__(self, patente: str):
-        # Assuming patente is not None and not empty as per Java comment
+        
         self._patente = patente
 
     @abstractmethod
